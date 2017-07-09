@@ -14,4 +14,6 @@ if (typeof Windows !== undefined) {
         toastNotifier.show(toast);
     });
     button.removeAttribute('disabled');
+} else {
+    console.log('sorry');
 }
