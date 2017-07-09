@@ -1,4 +1,4 @@
-if (typeof Windows !== undefined) {
+if (typeof Windows !== "undefined") {
     var button = document.querySelector('button');
     button.addEventListener('click', function() {
         var notifications = Windows.UI.Notifications;
